@@ -1,0 +1,24 @@
+.label {
+<<<<<<< HEAD
+    padding: 0.8rem 1rem;
+=======
+    padding: 0.6rem;
+>>>>>>> 898d9c594bced6f70bc272b68ea42fbe305b27e4
+
+    &--primary {
+        background-color: $primary;
+        color: $white;
+    }
+    &--secondary {
+        background-color: $secondary;
+        color: $white;
+    }
+    &--third {
+        background-color: $third;
+        color: $black;
+    }
+    &--fourth {
+        background-color: $fourth;
+        color: $black;
+    }
+}

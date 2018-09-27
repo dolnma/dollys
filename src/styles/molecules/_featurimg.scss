@@ -1,0 +1,17 @@
+.featurimg {
+    display: flex;
+    align-items: center;
+    img {
+<<<<<<< HEAD
+        max-width: 8rem;
+        max-height: 6rem;
+
+        @include break(sm) {
+            max-width: 12rem;
+            max-height: 5rem;
+        }
+=======
+        max-width: 12rem;
+>>>>>>> 898d9c594bced6f70bc272b68ea42fbe305b27e4
+    }
+}

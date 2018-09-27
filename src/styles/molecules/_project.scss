@@ -1,0 +1,50 @@
+.project {
+    padding: 1rem;
+
+    &__wrap {
+        background-color: $white;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &__labels {
+<<<<<<< HEAD
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+            flex-wrap: wrap;
+
+            @include break(sm) {
+                flex-wrap: nowrap;
+            }
+=======
+            padding: 1rem 0;
+>>>>>>> 898d9c594bced6f70bc272b68ea42fbe305b27e4
+        }
+    }
+
+    & .label {
+        margin: 0.5rem;
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-weight: bold;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    p {
+<<<<<<< HEAD
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+=======
+        padding: 1rem;
+        font-size: 1.8rem;
+>>>>>>> 898d9c594bced6f70bc272b68ea42fbe305b27e4
+    }
+}

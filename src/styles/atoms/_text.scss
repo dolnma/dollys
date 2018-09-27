@@ -1,0 +1,50 @@
+.text {
+    line-height: 1.5rem;
+    &--primary {
+        color: $primary;
+        a {
+            color: $primary;
+        }
+    }
+    &--secondary {
+        color: $secondary;
+        a {
+            color: $secondary;
+        }
+    }
+    &--third {
+        color: $third;
+        a {
+            color: $third;
+        }
+    }
+<<<<<<< HEAD
+    &--fourth {
+        color: $fourth;
+        a {
+            color: $fourth;
+        }
+    }
+    &--fifth {
+        color: $fifth;
+        a {
+            color: $fifth;
+        }
+        &--darken {
+            color: darken($fifth, 50%);
+        }
+    }
+    &--white {
+        color: $white;
+        a {
+            color: $white;
+        }
+=======
+    &--white {
+        color: $white;
+>>>>>>> 898d9c594bced6f70bc272b68ea42fbe305b27e4
+    }
+}
+.text-center {
+    text-align: center;
+}
